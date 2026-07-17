@@ -1,0 +1,82 @@
+
+
+all the 40 git command
+
+
+    git config --global user.name "Name": Sets the local author name.
+    git config --global user.email "Email": Sets the local author email.
+    git version: Identifies the active version of Git.
+    git help <command>: Opens the documentation manual for a command. 
+
+📁 Initializing & Cloning (5–6)
+
+    git init: Starts a new local Git repository.
+    git clone <url>: Downloads an existing repository from a remote source. 
+
+🛠️ Working Directory & Staging (7–12)
+
+    git status: Displays modified, staged, and untracked files.
+    git add <file>: Moves a specific file to the staging area.
+    git add .: Moves all changed files to the staging area.
+    git add -p: Stages specific interactive portions (hunks) of a file.
+    git rm <file>: Removes a file from the disk and stages deletion.
+    git rm --cached <file>: Removes a file from tracking but keeps it locally. 
+
+💾 Committing Changes (13–16)
+
+    git commit -m "msg": Records staged snapshots with a tracking message.
+    git commit -am "msg": Stages tracked files and commits them together.
+    git commit --amend: Edits the message or content of the latest commit.
+    git cherry-pick <commit>: Copies a specific commit from another branch onto yours. 
+
+🌿 Branching & Switching (17–23)
+
+    git branch: Lists all local branches in the repository.
+    git branch -a: Lists all local and remote-tracking branches.
+    git branch <name>: Creates a new branch without switching to it.
+    git switch <branch>: Changes the working directory to an existing branch.
+    git switch -c <branch>: Creates a new branch and switches to it.
+    git branch -d <branch>: Deletes a branch safely after it is merged.
+    git branch -D <branch>: Forces the deletion of an unmerged branch. 
+
+🔀 Merging & Rebasing (24–26)
+
+    git merge <branch>: Combines a target branch into your active branch.
+    git rebase <branch>: Re-applies your active branch commits on top of another.
+    git rebase -i <commit>: Opens an interactive menu to squash or edit history. 
+
+🔍 History & Inspection (27–31)
+
+    git log: Shows chronological commit histories for the active branch.
+    git log --oneline: Condenses history into highly scannable single lines.
+    git log --graph: Displays commit paths and merge splits visually.
+    git diff: Shows unstaged changes against your last commit.
+    git diff --staged: Shows changes made between staged files and your last commit. 
+
+☁️ Remote Synchronization (32–36)
+
+    git remote add origin <url>: Links a local repository to a remote server.
+    git remote -v: Lists all verified remote connection URLs.
+    git fetch: Downloads references and history from remote without merging.
+    git pull: Downloads remote changes and merges them automatically.
+    git push origin <branch>: Uploads local commits to a specific remote branch. 
+
+🧹 Stashing & Temporary Saving (37–38)
+
+    git stash: Shelves modified, tracked files to clear your workspace.
+    git stash pop: Restores your most recently shelved changes to work. 
+
+⚠️ Undoing & Resetting (39–40)
+
+    git restore <file>: Discards uncommitted changes inside a specific file.
+    git reset --hard HEAD~1: Destroys the last commit and wipes out file changes. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
