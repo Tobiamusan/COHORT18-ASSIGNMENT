@@ -1,0 +1,92 @@
+LIST OF COMMAND LINE PROMPT
+
+
+No.	Command	Purpose	Example
+1	dir	List files and folders	dir
+2	cd	Change directory	cd Documents
+3	cd..	Move up one directory	cd..
+4	cd\	Go to the root directory	cd\
+5	cls	Clear the screen	cls
+6	mkdir or md	Create a new folder	mkdir Project
+7	rmdir or rd	Delete an empty folder	rmdir Project
+8	del	Delete a file	del test.txt
+9	erase	Delete one or more files	erase *.txt
+10	copy	Copy files	copy file.txt D:\Backup
+11	xcopy	Copy folders and files	xcopy C:\Data D:\Backup /E
+12	robocopy	Advanced file copying	robocopy C:\Data D:\Backup
+13	move	Move files or folders	move report.docx Documents
+14	ren	Rename files or folders	ren old.txt new.txt
+15	type	Display file contents	type notes.txt
+16	more	Display text one page at a time	more notes.txt
+17	tree	Show folder structure	tree
+18	echo	Display or write text	echo Hello World
+19	set	Create or display environment variables	set PATH
+20	pause	Pause a batch script	pause
+21	exit	Close Command Prompt	exit
+22	help	Show available commands	help
+23	command /?	Get help for a specific command	dir /?
+24	hostname	Display computer name	hostname
+25	whoami	Display current user	whoami
+26	ver	Show Windows version	ver
+27	systeminfo	Display system information	systeminfo
+28	date	Show or change system date	date
+29	time	Show or change system time	time
+30	ipconfig	Show IP configuration	ipconfig
+31	ipconfig /all	Show detailed network information	ipconfig /all
+32	ping	Test network connectivity	ping google.com
+33	tracert	Trace the route to a host	tracert google.com
+34	nslookup	Query DNS information	nslookup google.com
+35	netstat	Show network connections	netstat
+36	tasklist	List running processes	tasklist
+37	taskkill	End a running process	taskkill /IM notepad.exe /F
+38	chkdsk	Check disk for errors	chkdsk C:
+39	diskpart	Open disk partition tool	diskpart
+40	shutdown	Shut down or restart the computer	shutdown /s /t 0
+
+
+
+
+
+LIST OF GIT COMMAND 
+
+| Command                                            | Description                                            |
+| -------------------------------------------------- | ------------------------------------------------------ |
+| `git --version`                                    | Check the installed Git version.                       |
+| `git config --global user.name "Your Name"`        | Set your Git username.                                 |
+| `git config --global user.email "you@example.com"` | Set your Git email.                                    |
+| `git config --list`                                | View current Git configuration.                        |
+| `git init`                                         | Initialize a new Git repository.                       |
+| `git clone <repository-url>`                       | Copy an existing repository to your computer.          |
+| `git status`                                       | Show the current status of your repository.            |
+| `git add <file>`                                   | Stage a specific file.                                 |
+| `git add .`                                        | Stage all changed files.                               |
+| `git commit -m "Commit message"`                   | Save staged changes with a message.                    |
+| `git log`                                          | View commit history.                                   |
+| `git log --oneline`                                | View a compact commit history.                         |
+| `git diff`                                         | Show unstaged changes.                                 |
+| `git diff --staged`                                | Show staged changes before committing.                 |
+| `git rm <file>`                                    | Remove a file from Git and your system.                |
+| `git mv <old-name> <new-name>`                     | Rename or move a file.                                 |
+| `git restore <file>`                               | Discard changes in a file.                             |
+| `git restore --staged <file>`                      | Unstage a file.                                        |
+| `git reset --hard HEAD`                            | Discard all local changes. **Use with caution.**       |
+| `git branch`                                       | List all local branches.                               |
+| `git branch <branch-name>`                         | Create a new branch.                                   |
+| `git checkout <branch-name>`                       | Switch to a branch.                                    |
+| `git checkout -b <branch-name>`                    | Create and switch to a new branch.                     |
+| `git switch <branch-name>`                         | Modern way to switch branches.                         |
+| `git switch -c <branch-name>`                      | Create and switch to a new branch (modern).            |
+| `git merge <branch-name>`                          | Merge a branch into the current branch.                |
+| `git rebase <branch-name>`                         | Reapply commits on top of another branch.              |
+| `git branch -d <branch-name>`                      | Delete a branch.                                       |
+| `git remote -v`                                    | View remote repositories.                              |
+| `git remote add origin <repository-url>`           | Add a remote repository.                               |
+| `git push origin <branch-name>`                    | Push commits to GitHub or another remote.              |
+| `git push -u origin main`                          | Push and set the upstream branch.                      |
+| `git pull`                                         | Download and merge changes from the remote repository. |
+| `git fetch`                                        | Download changes without merging.                      |
+| `git stash`                                        | Temporarily save uncommitted changes.                  |
+| `git stash pop`                                    | Restore the latest stashed changes.                    |
+| `git tag`                                          | List tags.                                             |
+| `git tag <tag-name>`                               | Create a tag.                                          |
+| `git show <commit-or-tag>`                         | Display details of a commit or tag.                    |
