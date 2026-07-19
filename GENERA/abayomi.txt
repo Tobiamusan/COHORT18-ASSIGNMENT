@@ -1,0 +1,16 @@
+cd
+ls
+rm
+mkdir
+touch
+mv
+cd --
+cd -
+
+git commands
+git init
+git clone
+git commit -m
+git branch
+git pull
+git push
