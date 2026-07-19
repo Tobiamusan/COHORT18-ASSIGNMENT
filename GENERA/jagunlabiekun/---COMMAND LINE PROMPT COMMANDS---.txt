@@ -1,0 +1,24 @@
+
+assoc       break       call        cd          chcp
+chdir       cls         color       copy        date
+del         dir         dpath       echo        endlocal
+erase       exit        for         ftype       goto
+if          keys        md          mkdir       mklink
+move        path        pause       popd        prompt
+pushd       rd          recover     rem         ren
+rename      replace     rmdir       set         setlocal
+shift       start       time        title       type
+ver         verify      vol
+
+arp         attrib      bcdedit     cacls       chkdsk
+choice      cipher      cleanmgr    clip        cmdkey
+compact     conhost     convert     defrag      diskpart
+dism        driverquery find        findstr     format
+fsutil      getmac      gpupdate    hostname    icacls
+ipconfig    label       manage-bde  more        mountvol
+net         netsh       nslookup    pathping    ping
+powercfg    quser       qwinsta     robocopy    route
+runas       schtasks    sc          scannow     setx
+shutdown    sort        subst       systeminfo  takeown
+taskkill    tasklist    timeout     tracert     tree
+tzutil      where       whoami      wmic        xcopy
